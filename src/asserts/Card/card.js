@@ -11,15 +11,15 @@ export default function PlayerCard({ data, handleClick }) {
   return (
     <>
 
-      <Grid item xs={12} md={3}>
+      <Grid item xs={12} md={4}>
         <Card>
           <CardActionArea
             sx={{
-              height: "350px",
+              height: "400px",
         
               overFlow: "hidden",
               padding: "30px",
-              border: "3px solid #245998",
+              border: "3px solid #4dff00",
         
               "&:hover": {
                 backgroundColor: "grey",
@@ -31,10 +31,10 @@ export default function PlayerCard({ data, handleClick }) {
               <img
                 src={Image}
                 style={{
-                  border: "2px solid #245998",
+                  border: "4px solid black",
                   borderRadius: "50%",
-                  height: "100px",
-                  width: "100px",
+                  height: "150px",
+                  width: "150px",
                 }}
               />
             </Box>
@@ -44,8 +44,8 @@ export default function PlayerCard({ data, handleClick }) {
                 variant="h3"
                 component="div"
                 sx={{
-                  color: "#4dff00",
-                  fontFamily:'cursive',
+                  color: "#001433",
+                  fontFamily:'sans-serif',
                   fontSize: "30px",
                   fontWeight: "bold",
                   textAlign: "center",
@@ -60,7 +60,7 @@ export default function PlayerCard({ data, handleClick }) {
               <Button
                 variant="contained"
                 style={{
-                  fontFamily:'cursive',
+                  fontFamily:'sans-serif',
                   border: "2px solid	black",
                   padding: "10px 20px",
                   fontSize: "15px",

@@ -3,8 +3,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "./componients/Layout/layout";
 import Header from "./componients/Navbar/Navbar";
+import Detail from "./screens/Detailscore/detail";
 
-import Detail from "./screens/detail";
 import Error from "./screens/Error";
 import Matches from "./screens/Match/Matches";
 

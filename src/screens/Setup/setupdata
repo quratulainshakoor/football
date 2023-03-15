@@ -1,0 +1,23 @@
+import Players from '../../asserts/images/player.png'
+import Player from '../../asserts/images/player.png'
+
+export const setdata = [
+  {
+    id: 1,
+    image: Player,
+   name:'Cristiano Ronaldo',
+  
+  },
+
+  {
+    id:2 ,
+    images: Players,
+   name:'Messi nyamr',
+  
+  },
+
+  
+
+
+
+];

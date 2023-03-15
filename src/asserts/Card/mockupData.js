@@ -114,6 +114,18 @@ export const data = [
     image: Image8,
   },
 
-
+  {
+    id: 9,
+    team:'B',
+    name: "Kevin De Bruyne",
+    goal_Score : " 3",
+    defend:"13",
+    match_Played:'4',
+    assista:'1',
+    red_card:'0',
+    yellow_card:'0',
+    keyPasses: "2",
+    image: Image9,
+  },
 
 ];

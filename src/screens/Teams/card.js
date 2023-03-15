@@ -18,7 +18,7 @@ export default function TeamCard({ datas, handleClick }) {
             sx={{
            
               padding: "30px",
-              border: "3px solid #245998",
+              border: "3px solid #4dff00",
             }}
           >
             <Box sx={{ textAlign: "center" }}>

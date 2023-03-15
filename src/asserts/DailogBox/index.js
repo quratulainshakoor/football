@@ -16,7 +16,7 @@ console.log(data);
         id="responsive-dialog-title"
         sx={{
           color: "#245998",
-          fontFamily:'cursive',
+          fontFamily:'sans-serif',
           fontSize: "30px",
           fontWeight: "bold",
         }}
@@ -29,7 +29,7 @@ Player Performence
       <DialogContent sx={{
         fontSize:'20px',
         fontWeight:'bold',
-        fontFamily:'cursive',
+        fontFamily:'sans-serif',
         textTransform:'capitalize',
         color:'	#001433'
 
