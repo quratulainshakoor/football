@@ -1,150 +1,117 @@
-import { Box } from '@mui/material'
-// import React from 'react'
-// import { data } from '../../asserts/Card/mockupData'
-// import SoccerLineUp from 'react-soccer-lineup'
+import { Box, Button, Container, Grid, Typography } from '@mui/material'
+import React from 'react'
+ import { data } from '../../asserts/Card/mockupData'
 import Ground from '../../asserts/images/setup.png'
-// import Player from '../../asserts/images/player.png'
-import Image1 from "../../asserts/images/img1.jpg";
-import Image2 from "../../asserts/images/img2.jfif";
-import Image3 from "../../asserts/images/img3.jfif";
-import Image4 from "../../asserts/images/img4.jfif";
-import Image5 from "../../asserts/images/img5.jfif";
-import Image6 from "../../asserts/images/img6.jfif";
-import Image7 from "../../asserts/images/img7.jfif";
-import Image8 from "../../asserts/images/img8.jfif";
-import Image9 from "../../asserts/images/img9.jfif";
+import Profile from '../../asserts/images/player.png'
+
 
 const Setup = () => {
+
   // let Image = data.image;
   // console.log(data)
   return (
     <>  
+      <Typography
+          variant="h2"
+          style={{
+            textAlign: "center",
+            marginTop: "150px",
+            marginBottom: "10px",
+            color: "	#001433",
+            fontWeight: "bold",
+            textDecoration:'underline'
+          }}
+        >
+          Our Team
+        </Typography>
+   
+
+
     <Box sx={{
-      marginTop:'50px',
-      marginBottom:'100px',
+      
       display:'flex',
       justifyContent:'center',
+      alignItems:'center'
     }}>
-
+  
       <img src={Ground} alt='soccer-ground'  style={{
       marginTop:'100px',
       marginBottom:'100px',
-     
+     height:'80%',
+     marginLeft:'250px'
     }} />
 
+    <div>
 
-
+<img src={Profile}  style={{
     
-<img src={Image1}  style={{
-      marginTop:'100px',
-      marginBottom:'100px',
-      border:'5px solid blue',
-      borderRadius:'50px',
+
     height:'100px' , 
       width:'100px',
-     position:'absolute',
-     top:'90px',
-     right:'670px',
+     position:'relative',
+     top: '228px',
+     bottom: '183px',
+     left: '-310px',
+    }}   />
+
+    
+<img src={Profile}  style={{
+    
+
+    height:'100px' , 
+      width:'100px',
+     position:'relative',
+     top:'-110px',
+     left:'-210px',
   bottom:'66px'
     }}   />
 
 
-<img src={Image2} style={{
-      marginTop:'100px',
-      marginBottom:'100px',
-      border:'5px solid blue',
-      borderRadius:'50px',
+<img src={Profile} style={{
+    
     height:'100px' , 
       width:'100px',
      position:'relative',
-     top:'60px',
-     right:'750px',
-  bottom:'100px'
+     top:'200px',
+     left:'-250px',
+  bottom:'-110px'
     }}   />
 
-<img src={Image3}  style={{
-      marginTop:'100px',
-      marginBottom:'100px',
-      border:'5px solid blue',
-      borderRadius:'50px',
+
+
+<img src={Profile}  style={{
+    
     height:'100px' , 
       width:'100px',
      position:'relative',
      top:'30px',
-     right:'690px',
-  bottom:'70px'
+     right:'622px',
+  bottom:'20px'
     }}   />
 
     
-<img src={Image4}  style={{
-      marginTop:'100px',
-      border:'5px solid blue',
-      borderRadius:'50px',
-      marginBottom:'100px',
+<img src={Profile}  style={{
+   
     height:'100px' , 
       width:'100px',
      position:'relative',
      top:'90px',
-     right:'670px',
+     right:'570px',
   bottom:'66px'
     }}   />
 
-<img src={Image5}  style={{
-      marginTop:'100px',
-      marginBottom:'100px',
-      border:'5px solid blue',
-      borderRadius:'50px',
+<img src={Profile}  style={{
+ 
     height:'100px' , 
       width:'100px',
      position:'relative',
      top:'60px',
      right:'440px',
   bottom:'40px'
-    }}   />
+    }}   /> 
+    </div>
 
-{/* <img src={Image6}  style={{
-      marginTop:'100px',
-      marginBottom:'100px',
-    height:'100px' , 
-      width:'100px',
-     position:'relative',
-     top:'60px',
-     right:'440px',
-  bottom:'40px'
-    }}   />
-    
-<img src={Image7}  style={{
-      marginTop:'100px',
-      marginBottom:'100px',
-    height:'100px' , 
-      width:'100px',
-     position:'relative',
-     top:'60px',
-     right:'440px',
-  bottom:'40px'
-    }}   />
-    
-<img src={Image8}  style={{
-      marginTop:'100px',
-      marginBottom:'100px',
-    height:'100px' , 
-      width:'100px',
-     position:'relative',
-     top:'60px',
-     right:'440px',
-  bottom:'40px'
-    }}   />
-    
-<img src={Image9}  style={{
-      marginTop:'100px',
-      marginBottom:'100px',
-    height:'100px' , 
-      width:'100px',
-     position:'relative',
-     top:'60px',
-     right:'440px',
-  bottom:'40px'
-    }}   /> */}
+
         
 
     </Box>
